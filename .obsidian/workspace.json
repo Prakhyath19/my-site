@@ -1,0 +1,266 @@
+{
+  "main": {
+    "id": "8f4a2d3fe695048a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cb0147b66f560e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e278352feacda732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/mlNotes/Understanding Vanishing and Gradients Problem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7fc90d46d7665c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/mlNotes/Reusing Pretrained Layers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc1c1f62a37ec7cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/mlNotes/Glossary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9ee51576f1d34e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/mlNotes/Building nn from Scratch using Numpy and Pandas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bed1925839610477",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/mlNotes/Activation Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12bdea7edb6aa7b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/mlNotes/Glossary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "78d805d486896b73",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "docs/mlNotes/resources/Normalization Layer-1.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "90e0b13867620d17",
+    "type": "split",
+    "children": [
+      {
+        "id": "58e3c1b2f47319b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17a36e0de5fc9452",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "a90583723b331e18",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "gloss",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ea6b315c1bf46128",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 253.5
+  },
+  "right": {
+    "id": "2143433ef6a63447",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c5cd39f8172bc9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a29a04207ac12472",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/mlNotes/Understanding Vanishing and Gradients Problem.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b3a2405dac0554a8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/mlNotes/Understanding Vanishing and Gradients Problem.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "080e7364846eeecd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4ae7281abc979599",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/mlNotes/Understanding Vanishing and Gradients Problem.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "17a36e0de5fc9452",
+  "lastOpenFiles": [
+    "docs/mlNotes/Reusing Pretrained Layers.md",
+    "README.md",
+    "docs/notes/notes_index.md",
+    "docs/mlNotes/mlNotes_index.md",
+    "docs/mlNotes/Implementing Cyclic Learning rates in Kears.md",
+    "docs/mlNotes/Understanding Vanishing and Gradients Problem.md",
+    "docs/mlNotes/Building nn from Scratch using Numpy and Pandas.md",
+    "docs/mlNotes/Beginners Introduction to Machine learning..md",
+    "docs/mlNotes/Activation Functions.md",
+    "docs/mlNotes/Glossary.md",
+    "docs/mlNotes/Regularization.md",
+    "docs/mlNotes/Training Deep NN.md",
+    "Preprocessing in TF.md",
+    "docs/mlNotes/resources/Normalization Layer-1.png",
+    "Untitled.md",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/1ee1d418-a39d-4070-b584-5d0ff028cf72.png",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/__pycache__/clr_callback.cpython-311.pyc",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/__pycache__",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/images/triangularDiag.png",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/images/triangular2Diag.png",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/images/triangular2.png",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/images/triangular.png",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/images/reset.png",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/images/lrtest.png",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/images/iteration.png",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/images/exp_rangeDiag.png",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/images",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/tracing_clr.py",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/tracing_clr.ipynb",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/clr_callback_tests.ipynb",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/clr_callback.py",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/__init__.py",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/README.md",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/LICENSE",
+    "docs/mlNotes/Notebooks/Cyclic-learning-rates/CLR/Concept_cyclic-learning-rates.ipynb",
+    "docs/mlNotes/Notebooks/README.md",
+    "10-Jul-2024.md",
+    "docs/index.md",
+    "2024-04-20.md",
+    "2024-04-19.md",
+    "Man's Search for Meaning.md",
+    "docs/guides/IELTS resources.md",
+    "Downloads/Timothy_dickeson_ielts_high_score_vocabu.pdf.md"
+  ]
+}
