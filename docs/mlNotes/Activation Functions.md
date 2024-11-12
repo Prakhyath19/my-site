@@ -90,7 +90,7 @@ $$
 
 Each class has its own dedicated parameter vector $\boldsymbol{\theta}^k$. All these vectors are typically stores as rows in a parameter matrix $\Uptheta$
 
-- $ \mathbf{s(x)} $ is a vector containing the scores of each class fot he instance $\mathbf{x}$
+- $\mathbf{s(x)}$ is a vector containing the scores of each class for he instance $\mathbf{x}$
 - $\sigma(\mathbf{s(x)})_k$ is the estimated probability that the instance $\mathbf{x}$ belongs to class $k$, given the scores of each class for that instance. 
 - $exp: e$
 
