@@ -16,7 +16,9 @@
                 "file": "docs/mlNotes/Understanding Vanishing and Gradients Problem.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Understanding Vanishing and Gradients Problem"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "docs/mlNotes/Reusing Pretrained Layers.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Reusing Pretrained Layers"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "docs/mlNotes/Glossary.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Glossary"
             }
           },
           {
@@ -52,7 +58,9 @@
                 "file": "docs/mlNotes/Building nn from Scratch using Numpy and Pandas.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Building nn from Scratch using Numpy and Pandas"
             }
           },
           {
@@ -64,7 +72,9 @@
                 "file": "docs/mlNotes/Activation Functions.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Activation Functions"
             }
           },
           {
@@ -76,17 +86,23 @@
                 "file": "docs/mlNotes/Glossary.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Glossary"
             }
           },
           {
             "id": "78d805d486896b73",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "docs/mlNotes/resources/Normalization Layer-1.png"
-              }
+                "file": "docs/mlNotes/Activation Functions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Activation Functions"
             }
           }
         ],
@@ -110,7 +126,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTime"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "File explorer"
             }
           },
           {
@@ -125,7 +143,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -133,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -156,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/mlNotes/Understanding Vanishing and Gradients Problem.md",
+                "file": "docs/mlNotes/Activation Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +186,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Activation Functions"
             }
           },
           {
@@ -173,10 +197,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/mlNotes/Understanding Vanishing and Gradients Problem.md",
+                "file": "docs/mlNotes/Activation Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Activation Functions"
             }
           },
           {
@@ -187,7 +213,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -196,8 +224,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/mlNotes/Understanding Vanishing and Gradients Problem.md"
-              }
+                "file": "docs/mlNotes/Activation Functions.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Activation Functions"
             }
           }
         ],
@@ -217,14 +247,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17a36e0de5fc9452",
+  "active": "78d805d486896b73",
   "lastOpenFiles": [
+    "docs/mlNotes/Understanding Vanishing and Gradients Problem.md",
     "docs/mlNotes/Reusing Pretrained Layers.md",
     "README.md",
     "docs/notes/notes_index.md",
     "docs/mlNotes/mlNotes_index.md",
     "docs/mlNotes/Implementing Cyclic Learning rates in Kears.md",
-    "docs/mlNotes/Understanding Vanishing and Gradients Problem.md",
     "docs/mlNotes/Building nn from Scratch using Numpy and Pandas.md",
     "docs/mlNotes/Beginners Introduction to Machine learning..md",
     "docs/mlNotes/Activation Functions.md",

@@ -4,7 +4,7 @@
 $$
 \sigma(z) = \frac {1}{1 + e^{-z}}
 $$
-![[Sigmoid Activation Function.png]]
+![Sigmoid Activation function](./resources/Sigmoid Activation Function.png)
 
 ### Drawbacks:
 The Sigmoid Function saturates(flattens out) for large positive and large negative values. As a result, the layers don't learn anything and keeps spitting out 0s. 
@@ -12,6 +12,7 @@ The Sigmoid Function saturates(flattens out) for large positive and large negati
 They are the culprit of Vanishing/Exploding Gradients problem.
 ## 2.ReLU: Rectified Linear Unit
 ### 2.1 Function Def
+
 $$
 ReLU(z) =
 \begin{cases}
@@ -21,7 +22,7 @@ z & \text{if {z > 0}} \\
 $$
 
 
-![[ReLU Activation Function.png]]
+![](./resources/ReLU Activation Function.png)
 
 Unlike the sigmoid activation function, ReLU doesn't saturate for large positive values.
 ### 2.1.Drawbacks
@@ -32,7 +33,7 @@ For a neuron to die, it's weights must be tweaked in a way that the input of ReL
 
 ## 3.Leaky ReLU
 
-![[Leaky ReLU.png]]
+![](./resources/Leaky ReLU.png)
 
 ### 3.1 Function Def
 $$LeakyReLU_{\alpha}(z) = max(\alpha z, z)$$
@@ -47,9 +48,11 @@ There are other variants of ReLU such as Randomized ReLU(RReLU), Paratameterized
 ## Smooth Variants of ReLU: ELU, SELU
 ## 4. ELU: Exponential Linear Unit
 
-![[ELU, SELU activation function.png]]
+![](./resources/ELU, SELU activation function.png)
 ### 4.1 Function Def:
-$$ELU_{\alpha}(z) = 
+
+$$
+ELU_{\alpha}(z) = 
 \begin{cases}
 \alpha(exp(z) - 1) & \text{if $z$ $\lt$ 0} \\
 z & \text{if $z$ $\ge$ 0}
@@ -65,7 +68,7 @@ $$
 -> Slower to compute because of the exponential function
 
 ## 5. SELU: Scaled Exponential Linear Unit
- ### 4.1 Function Def:
+### 5.1 Function Def:
 $$
 SELU(z) = 1.05*ELU_{1.67}(z)
 $$
@@ -74,26 +77,31 @@ A scaled version of ELU (about 1.05 times ELU with $\alpha \approx1.67$)
 ## 6. Softmax Activation
 ### 6.1 Function Def
 $$
-\hat{p}_k = \sigma(\mathbf{s(x)})_k = \frac {exp(s_k(\mathbf{x}))}{\sum_{j=1}^K exp(s_j (\mathbf{x}))} \tag{6.1}\label{}
+(\hat{p}_k) = \sigma(\mathbf{s(x)})_k = \frac {exp(s_k(\mathbf{x}))}{\sum_{j=1}^K exp(s_j (\mathbf{x}))} \tag{6.1}\label{}
 $$
 
 In this equation:
 - $K$ is the number of classes.
 - Softmax score for class k
+
 $$
 s_k(\mathbf{x}) = (\boldsymbol{\theta}^k)^T \mathbf{x}
 $$
+
 Each class has its own dedicated parameter vector $\boldsymbol{\theta}^k$. All these vectors are typically stores as rows in a parameter matrix $\Uptheta$
 
-- $\mathbf{s(x)}$ is a vector containing the scores of each class fot he instance $\mathbf{x}$
+- $ \mathbf{s(x)} $ is a vector containing the scores of each class fot he instance $\mathbf{x}$
 - $\sigma(\mathbf{s(x)})_k$ is the estimated probability that the instance $\mathbf{x}$ belongs to class $k$, given the scores of each class for that instance. 
 - $exp: e$
 
-$\eqref{6.1} \text{ can be even written as}$
+$ \eqref{6.1} \text{ can be even written as} $
+
 $$
+
 \sigma(\mathbf{z})_i = \frac {e^{z_i}}{\sum_{j=1}^K e^{z_j}}
+
 $$
-$\mathbf{z} = (z1,z2,...,z_K)\in \Bbb{R}^K$
+$ \mathbf{z} = (z1,z2,...,z_K)\in \Bbb{R}^K $
 
 ## 7. Softplus
 $$
